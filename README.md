@@ -1,6 +1,6 @@
 # IonicFireBase
 
-* Este proyecto permite conectar con FireBase.
+# Este proyecto permite conectar con FireBase.
 
 - Creamos una cuenta en FireBase y en el modulo de DataBase en reglas creamos la siguiente regla, posteriormente se da clik en publicar
     
@@ -25,8 +25,8 @@
                     titulo: "imagen2"
 
 - Instalamos AngularFireBase
-    *npm install angularfire2 firebase promise-polyfill –save
-    *npm i rxjs@6 rxjs-compat@6 promise-polyfill --save
+    * npm install angularfire2 firebase promise-polyfill –save
+    * npm i rxjs@6 rxjs-compat@6 promise-polyfill --save
 
 - Copiamos la configuracion de FireBase a la configuracion de AngularFireBase
         
@@ -40,16 +40,16 @@
         };
 
 - Agregamos librerias para la camara del dispositivo.
-    *ionic cordova plugin add cordova-plugin-camera
-    *npm install --save @ionic-native/camera
+    * ionic cordova plugin add cordova-plugin-camera
+    * npm install --save @ionic-native/camera
 
 - Abrir la camara del dispositivo Modificamos config.xml 
-    *widget id="co.harley.pruebasfirebase"
+    * widget id="co.harley.pruebasfirebase"
 
 - Agregamos libreria image-picker
-    *ionic cordova plugin add cordova-plugin-telerik-imagepicker --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="your usage message"
-    *npm install --save @ionic-native/image-picker
-    *ionic cordova plugin add cordova-plugin-telerik-imagepicker
+    * ionic cordova plugin add cordova-plugin-telerik-imagepicker --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="your usage message"
+    * npm install --save @ionic-native/image-picker
+    * ionic cordova plugin add cordova-plugin-telerik-imagepicker
 
 - Para subir archivos a FireBase se crea un nuevo provider
-    *ionic g provider cargaArchivo
+    * ionic g provider cargaArchivo
