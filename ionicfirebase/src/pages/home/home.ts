@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 import { SubirPage } from "../subir/subir";
 import { AngularFireDatabase } from 'angularfire2/database';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'page-home',
