@@ -25,7 +25,7 @@
                     titulo: "imagen2"
 
 - Instalamos AngularFireBase
-    * npm install angularfire2 firebase promise-polyfill –save
+    * npm install angularfire2 firebase promise-polyfill --save
     * npm i rxjs@6 rxjs-compat@6 promise-polyfill --save
 
 - Copiamos la configuracion de FireBase a la configuracion de AngularFireBase
